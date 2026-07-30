@@ -1,8 +1,24 @@
 aid: lumosity
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lumosity.png
 name: Lumosity
-description: 'Lumosity is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Lumosity is a consumer brain-training platform built by Lumos Labs that offers cognitive
+  games and personalized daily workouts targeting memory, attention, problem solving, flexibility, and
+  processing speed. The service adapts difficulty to individual performance, tracks progress over time,
+  and is delivered through the web and iOS/Android mobile apps. Backed by Norwest Venture Partners, the
+  company was surfaced through VC-portfolio discovery; probing its public surface found no developer
+  portal, public API, or documented programmatic integration — it is a direct-to-consumer product with
+  no API surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/lumosity/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Unknown
+- Brain Training
+- Cognitive Training
+- Consumer Apps
+- Health and Wellness
+- Mobile
+- Games
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +46,20 @@ maintainers:
 common:
 - type: Website
   url: https://lumosity.com
+- type: Blog
+  url: https://www.lumosity.com/blog
+- type: Support
+  url: https://www.lumosity.com/contact
+- type: Login
+  url: https://www.lumosity.com/login
+- type: TermsOfService
+  url: https://www.lumosity.com/legal/terms_of_service
+- type: PrivacyPolicy
+  url: https://www.lumosity.com/legal/privacy_policy
+- type: DomainSecurity
+  url: security/lumosity-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
